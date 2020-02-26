@@ -1,0 +1,31 @@
+.Texts {
+}
+
+.Texts_row {
+}
+
+.Texts_text {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.Texts_text_preview {
+  width: 100%;
+  padding: 20px;
+}
+
+.Texts_text_description {
+  border-top: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.Texts_text_name {
+  font-size: 1rem;
+  margin: 10px 20px 0;
+}
+.Texts_text_value {
+  font-size: 0.85rem;
+  margin: 0 20px 10px;
+  opacity: 0.5;
+}

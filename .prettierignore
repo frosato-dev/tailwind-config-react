@@ -1,0 +1,4 @@
+packages/*/dist
+examples-cra/*/node_modules
+react/*/node_modules
+.travis.yml

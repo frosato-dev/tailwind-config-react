@@ -1,0 +1,30 @@
+{
+  "projectName": "tailwind-config-showcase",
+  "projectOwner": "frosato-dev",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "frosato-dev",
+      "name": "François Rosato",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/31624379?v=4",
+      "profile": "https://github.com/frosato-dev",
+      "contributions": [
+        "code",
+        "doc",
+        "design",
+        "example",
+        "ideas",
+        "platform",
+        "tool"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
