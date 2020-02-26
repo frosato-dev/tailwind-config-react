@@ -1,0 +1,33 @@
+.Boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Boxes_row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Boxes_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  width: 200px;
+}
+
+.Boxes_box_preview {
+  width: 100%;
+  height: 80px;
+  margin-top: 20px;
+}
+
+.Boxes_box_name {
+  font-size: 1rem;
+  margin: 10px 10px 0;
+}
+
+.Boxes_box--background {
+  background-color: #ccc;
+}

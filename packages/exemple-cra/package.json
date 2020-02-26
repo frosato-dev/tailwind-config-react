@@ -1,0 +1,33 @@
+{
+  "name": "@tailwind-config-showcase/exemple-cra",
+  "version": "0.0.0",
+  "description": "An exemple of use in CRA",
+  "author": "François Rosato <francois.rosato@ekino.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0",
+    "tailwindcss": "^1.1.2"
+  },
+  "scripts": {
+    "tailwind:css": "tailwind build src/styles/index.css -c src/tailwind.config.js -o src/styles/tailwind.css",
+    "dev": "npm run tailwind:css && react-scripts start",
+    "build": "npm run tailwind:css && react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
