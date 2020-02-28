@@ -1,18 +1,27 @@
 {
-  "name": "tailwind-config-showcase",
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
-  "scripts": {
-    "dev": "lerna run dev --parallel",
-    "test": "lerna run test --parallel",
-    "format": "prettier --color --write \"**/*.{js,jsx,ts,tsx,yml,yaml}\" README.md \"packages/*/README.md\" tsconfig.json \"packages/*/tsconfig.json\""
-  },
-  "devDependencies": {
-    "lerna": "^3.20.2"
-  },
-  "dependencies": {
-    "prettier": "1.19.1"
-  }
+    "name": "tailwind-config-showcase",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/frosato-ekino/tailwind-config-showcase"
+    },
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "dev": "lerna run dev --parallel",
+        "test": "lerna run test --parallel",
+        "format": "prettier --color --write \"**/*.{js,jsx,ts,tsx,yml,yaml}\" README.md \"packages/*/README.md\" tsconfig.json \"packages/*/tsconfig.json\"",
+        "release": "--dry-run",
+        "lint": "echo lint"
+    },
+    "devDependencies": {
+        "husky": "4.2.3",
+        "lerna": "^3.20.2",
+        "lint-staged": "10.0.8",
+        "prettier": "1.19.1"
+    },
+    "dependencies": {
+        "semantic-release": "17.0.4"
+    }
 }

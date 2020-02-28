@@ -1,0 +1,21 @@
+language: node_js
+
+node_js:
+  - 12
+
+jobs:
+  include:
+    - stage: lint
+      script: 
+        - yarn run lint
+    - stage: test
+      script: 
+        - yarn run test
+    - stage: release
+      # Advanced: optionally overwrite your default `script` step to skip the tests
+      # script: skip
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - yarn semantic-release --dry-run
