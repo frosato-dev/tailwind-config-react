@@ -1,4 +1,4 @@
-import Boxes from './Boxes';
+import Boxes from "./Boxes";
 
 describe("Boxes", () => {
   it("is truthy", () => {

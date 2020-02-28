@@ -1,4 +1,4 @@
-import Texts from './Texts';
+import Texts from "./Texts";
 
 describe("Texts", () => {
   it("is truthy", () => {

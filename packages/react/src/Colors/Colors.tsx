@@ -1,8 +1,8 @@
-import './Colors.css';
+import "./Colors.css";
 
-import * as React from 'react';
+import * as React from "react";
 
-import ComponentFactory from '../ComponentFactory';
+import ComponentFactory from "../ComponentFactory";
 
 interface IColorProps {
   color: string;

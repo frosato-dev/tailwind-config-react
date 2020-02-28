@@ -1,8 +1,8 @@
-import './Texts.css';
+import "./Texts.css";
 
-import * as React from 'react';
+import * as React from "react";
 
-import ComponentFactory from '../ComponentFactory';
+import ComponentFactory from "../ComponentFactory";
 
 interface ITextProps {
   tailwindClassName: string;

@@ -1,9 +1,15 @@
-import '@tailwind-react-showcase/react/dist/index.css';
+import "@tailwind-react-showcase/react/dist/index.css";
 
-import { Box, Boxes, Color, Colors, Texts } from '@tailwind-react-showcase/react';
-import React from 'react';
+import {
+  Box,
+  Boxes,
+  Color,
+  Colors,
+  Texts
+} from "@tailwind-react-showcase/react";
+import React from "react";
 
-import config from './tailwind.config.js';
+import config from "./tailwind.config.js";
 
 function App() {
   return (
