@@ -9,6 +9,16 @@
   "imageSize": 100,
   "commit": true,
   "commitConvention": "angular",
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "frosato-dev",
+      "name": "François Rosato",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/31624379?v=4",
+      "profile": "https://github.com/frosato-dev",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
   "contributorsPerLine": 7
 }
