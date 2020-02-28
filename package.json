@@ -6,9 +6,14 @@
   ],
   "scripts": {
     "dev": "lerna run dev --parallel",
-    "test": "lerna run test --parallel"
+    "test": "lerna run test --parallel",
+    "format": "prettier --color --write \"**/*.{js,jsx,ts,tsx,yml,yaml}\" README.md \"packages/*/README.md\" tsconfig.json \"packages/*/tsconfig.json\"",
+
   },
   "devDependencies": {
     "lerna": "^3.20.2"
+  },
+  "dependencies": {
+    "prettier": "1.19.1"
   }
 }
