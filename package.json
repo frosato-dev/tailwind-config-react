@@ -13,9 +13,12 @@
         "test": "lerna run test --parallel",
         "format": "prettier --color --write \"**/*.{js,jsx,ts,tsx,yml,yaml}\" README.md \"packages/*/README.md\" tsconfig.json \"packages/*/tsconfig.json\"",
         "release": "--dry-run",
-        "lint": "echo lint"
+        "lint": "echo lint",
+        "contributors:add": "all-contributors-cli add",
+        "contributors:generate": "all-contributors-cli generate"
     },
     "devDependencies": {
+        "all-contributors-cli": "6.14.0",
         "husky": "4.2.3",
         "lerna": "^3.20.2",
         "lint-staged": "10.0.8",
