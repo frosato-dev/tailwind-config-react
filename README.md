@@ -3,6 +3,7 @@
 [![lerna][lerna-image]][lerna-url]
 [![styled with prettier][prettier-image]][prettier-url]
 [![License][license-image]][license-url]
+[![NPM](https://nodei.co/npm/tailwind-config-react.png)](https://nodei.co/npm/tailwind-config-react/)
 
 <br />
 <p align="center">
@@ -29,7 +30,6 @@
 
 -   [How to install](./docs/react.md#install)
 -   [List of components](./docs/react.md#components)
-
 
 <!-- ROADMAP -->
 
