@@ -4,11 +4,12 @@
     "description": "An exemple of use in CRA",
     "author": "François Rosato <francois.rosato@ekino.com>",
     "license": "MIT",
-    "homepage": "https://frosato-dev.github.io/tailwind-config-showcase/",
+    "homepage": "https://frosato-dev.github.io/tailwind-config-react/",
     "dependencies": {
         "react": "^16.10.2",
         "react-dom": "^16.10.2",
         "react-scripts": "3.4.0",
+        "tailwind-config-react": "latest",
         "tailwindcss": "^1.1.2"
     },
     "scripts": {
