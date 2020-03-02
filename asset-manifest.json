@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/tailwind-config-showcase/static/css/main.67347243.chunk.css",
-    "main.js": "/tailwind-config-showcase/static/js/main.7d078922.chunk.js",
-    "main.js.map": "/tailwind-config-showcase/static/js/main.7d078922.chunk.js.map",
-    "runtime-main.js": "/tailwind-config-showcase/static/js/runtime-main.c20453df.js",
-    "runtime-main.js.map": "/tailwind-config-showcase/static/js/runtime-main.c20453df.js.map",
-    "static/js/2.449e1540.chunk.js": "/tailwind-config-showcase/static/js/2.449e1540.chunk.js",
-    "static/js/2.449e1540.chunk.js.map": "/tailwind-config-showcase/static/js/2.449e1540.chunk.js.map",
-    "index.html": "/tailwind-config-showcase/index.html",
-    "precache-manifest.d7dd9eb00ce61a0c4d1edd1df6dbfc07.js": "/tailwind-config-showcase/precache-manifest.d7dd9eb00ce61a0c4d1edd1df6dbfc07.js",
-    "service-worker.js": "/tailwind-config-showcase/service-worker.js",
-    "static/css/main.67347243.chunk.css.map": "/tailwind-config-showcase/static/css/main.67347243.chunk.css.map",
-    "static/js/2.449e1540.chunk.js.LICENSE.txt": "/tailwind-config-showcase/static/js/2.449e1540.chunk.js.LICENSE.txt"
+    "main.css": "/tailwind-config-react/static/css/main.67347243.chunk.css",
+    "main.js": "/tailwind-config-react/static/js/main.7d078922.chunk.js",
+    "main.js.map": "/tailwind-config-react/static/js/main.7d078922.chunk.js.map",
+    "runtime-main.js": "/tailwind-config-react/static/js/runtime-main.068e8878.js",
+    "runtime-main.js.map": "/tailwind-config-react/static/js/runtime-main.068e8878.js.map",
+    "static/js/2.449e1540.chunk.js": "/tailwind-config-react/static/js/2.449e1540.chunk.js",
+    "static/js/2.449e1540.chunk.js.map": "/tailwind-config-react/static/js/2.449e1540.chunk.js.map",
+    "index.html": "/tailwind-config-react/index.html",
+    "precache-manifest.47a044eb9accd7981e008c9dc90580e4.js": "/tailwind-config-react/precache-manifest.47a044eb9accd7981e008c9dc90580e4.js",
+    "service-worker.js": "/tailwind-config-react/service-worker.js",
+    "static/css/main.67347243.chunk.css.map": "/tailwind-config-react/static/css/main.67347243.chunk.css.map",
+    "static/js/2.449e1540.chunk.js.LICENSE.txt": "/tailwind-config-react/static/js/2.449e1540.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c20453df.js",
+    "static/js/runtime-main.068e8878.js",
     "static/js/2.449e1540.chunk.js",
     "static/css/main.67347243.chunk.css",
     "static/js/main.7d078922.chunk.js"
