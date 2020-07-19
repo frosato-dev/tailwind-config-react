@@ -37,7 +37,7 @@
         "release": "npx semantic-release"
     },
     "dependencies": {
-        "lodash": "4.17.15"
+        "lodash": "4.17.19"
     },
     "peerDependencies": {
         "react": "^15.0.0 || ^16.0.0",
